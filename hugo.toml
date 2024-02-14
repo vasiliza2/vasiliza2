@@ -1,8 +1,9 @@
-baseurl      = "localhost"
+baseurl      = "https://vasiliza2.github.io/vasiliza2"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+publishDir = "docs"
 
 [params]
   dateform        = "Jan 2, 2006"
