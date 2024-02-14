@@ -1,5 +1,5 @@
 baseurl      = "https://vasiliza2.github.io/vasiliza2"
-title        = "My Portfolio"
+title        = "My Portfolio "
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
