@@ -11,8 +11,9 @@ publishDir = "docs"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
+
   # Subtitle for home
-  homeSubtitle = "Portfolio wuth labs"
+  homeSubtitle = "Годы обучения 2022-2026"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -21,30 +22,60 @@ publishDir = "docs"
   enableSharingButtons = true
   
   # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
+  
+  # Set a background for the homepage
+  backgroundImage = "images/ground.jpg"
+
+[params.footer]
+    trademark = 2024
+    rss = true
+    copyright = true
+    author = false
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
+    ]
+
+ [[params.social]]
+    name = "github"
+    url  = "https://github.com/vasiliza2?tab=repositories"
+
+ [[params.social]]
+    name = "email"
+    url  = "elizavetavasileva332@gmail.com"
 
 [taxonomies]
     category = "blog"
     tag      = "tags"
     series   = "series"
 
+ # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#3b1c1d"
+    msapplication = "#3b1c1d"
+    theme = "#3b1c1d"
+
+  
 [languages]
   [languages.en]
-    title = "Portfolio"
+    title = "Портфолио студентки РГПУ им.Герцена"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
+    subtitle  = "vasiliza"
 
     [languages.en.params.logo]
-      logoText = "vasiliza2"
+      logoText = "Васильева Елизавета"
       logoHomeLink = "/"
     # or
     #
@@ -53,6 +84,18 @@ publishDir = "docs"
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    identifier = "1 курс"
+    name       = "1 курс"
+    url        = "/post1"
+  [[menu.main]]
+    identifier = "2 курс"
+    name       = "2 курс"
+    url        = "/post2"
+  [[menu.main]]
+    identifier = "3 курс"
+    name       = "3 курс"
+    url        = "/post3"
+  [[menu.main]]
+    identifier = "4 курс"
+    name       = "4 курс"
+    url        = "/post4"
