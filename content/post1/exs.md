@@ -27,4 +27,6 @@ tags:
 
 #### [Программирование Си](https://drive.google.com/drive/u/0/folders/1O1BfqUuvfPL-ms3YnjdjSg7cu9RaNO6m)
 
+#### [Практика](https://github.com/vasiliza2/practice1)
+
 
